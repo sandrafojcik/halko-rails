@@ -1,0 +1,20 @@
+<h1>Cześć <%= @user.name %></h1>
+<h2>Jest <%= @czas %></h2>
+<h2>Masz <%= @user.age %> lat </h2>
+<h3>Moje miasto to <%= @user.city %></h3>
+
+<h4>Rzeczy, które lubie</h4>
+
+<ul>
+  <% @rzeczy.each do |rzecz| %>
+    <li><%= rzecz %></li>
+  <% end %>
+</ul>
+
+<h5>Płyty, które lubie</h5>
+
+<ul>
+    <% @user.albums.each do |plyta| %>
+      <li><%= "Autor: #{plyta[:artist]}, Tytul: #{plyta[:title]}, Rok: #{plyta[:year]}"%> </li>
+    <% end %>
+</ul>

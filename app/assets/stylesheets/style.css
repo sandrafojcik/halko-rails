@@ -1,0 +1,20 @@
+h1 {
+    color: lightcoral;
+}
+h4 {
+    color: green;
+    font-size: 20px;
+}
+
+h5 {
+    color: hotpink;
+    font-size: 20px;
+}
+
+.kwadrat{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    color: purple;
+    text-align: center;
+}
